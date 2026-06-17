@@ -1,10 +1,9 @@
 package com.exercise.libraryApp.service
 
-import LoginRequest
-import UserRegistrationRequest
+import com.exercise.libraryApp.model.dto.LoginRequest
+import com.exercise.libraryApp.model.dto.UserRegistrationRequest
 import com.exercise.libraryApp.mapper.toResponse
 import com.exercise.libraryApp.model.dto.AuthResponse
-import com.exercise.libraryApp.model.dto.UserResponse
 import com.exercise.libraryApp.model.entity.Student
 import com.exercise.libraryApp.model.entity.User
 import com.exercise.libraryApp.repository.StudentRepository

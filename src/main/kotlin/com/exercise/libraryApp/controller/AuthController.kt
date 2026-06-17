@@ -1,7 +1,7 @@
 package com.exercise.libraryApp.controller
 
-import LoginRequest
-import UserRegistrationRequest
+import com.exercise.libraryApp.model.dto.LoginRequest
+import com.exercise.libraryApp.model.dto.UserRegistrationRequest
 import com.exercise.libraryApp.model.dto.AuthResponse
 import com.exercise.libraryApp.service.AuthService
 import jakarta.validation.Valid
